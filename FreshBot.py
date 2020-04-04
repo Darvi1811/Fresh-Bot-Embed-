@@ -41,4 +41,4 @@ async def hello(ctx):
 
 
 
-bot.run("Njk1MjI3MDk5OTA4Mjc2MjI0.XoXGxA.Sam3phZ3OBfzyl4enbnUxevUmJw")
+bot.run(TOKEN)
