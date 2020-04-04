@@ -1,8 +1,8 @@
 import discord
 from discord.ext import commands
+import os
 
-#токен
-token = "Njk1MjI3MDk5OTA4Mjc2MjI0.XoXGxA.Sam3phZ3OBfzyl4enbnUxevUmJw"
+
 
 #префикс 
 bot = commands.Bot(command_prefix = "*")
@@ -41,4 +41,4 @@ async def hello(ctx):
 
 
 
-bot.run(token)
+bot.run("Njk1MjI3MDk5OTA4Mjc2MjI0.XoXGxA.Sam3phZ3OBfzyl4enbnUxevUmJw")
