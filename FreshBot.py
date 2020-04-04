@@ -7,6 +7,8 @@ import os
 #префикс 
 bot = commands.Bot(command_prefix = "*")
 
+token = os.environ.get("BOT_TOKEN")
+
 @bot.event
 
 #Подключение
@@ -41,4 +43,4 @@ async def hello(ctx):
 
 
 
-bot.run(TOKEN)
+bot.run(BOT_TOKEN)
