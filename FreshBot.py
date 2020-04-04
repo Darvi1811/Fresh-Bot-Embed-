@@ -24,7 +24,7 @@ async def embed(ctx):
 	embed = discord.Embed(
 			colour=discord.Colour.red(),
 			title="**Counter Strike: Global Offensive**",
-			description='**Всем привет! Добавлена категория "Counter Strike: Global Offensive", там можно поиграть в ММ или Напарники.\nЕще добавлены новости по теме CS GO, если вы в <#695659524773642301> получите роль "CS GO News".\nТо будете получать уведомления при начале  трансляции csgomc_ru!**'
+			description='**Всем привет! Добавлена категория "Counter Strike: Global Offensive", там можно поиграть в ММ или Напарники.\nЕще добавлены новости по теме CS GO, если вы в <#696055207481573386> получите роль <@&695658082465873920>.\nТо будете получать уведомления при начале  трансляции csgomc_ru!**'
 	)
 
 		
