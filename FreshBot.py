@@ -7,7 +7,7 @@ import os
 #префикс 
 bot = commands.Bot(command_prefix = "*")
 
-token = os.environ.get("BOT_TOKEN")
+
 
 @bot.event
 
@@ -42,5 +42,5 @@ async def hello(ctx):
 
 
 
-
-bot.run(BOT_TOKEN)
+token = os.environ.get("BOT_TOKEN")
+bot.run(str(token))
